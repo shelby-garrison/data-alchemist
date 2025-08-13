@@ -1,0 +1,6 @@
+TaskID,TaskName,Category,Duration,RequiredSkills,PreferredPhases,MaxConcurrent
+T001,Task Alpha,Category1,0,SkillA,"[1,2]",2
+T002,Task Beta,Category1,2,SkillD,"[1,2,3]",5
+T002,Task Gamma,Category2,1,SkillA,1-3,2
+T003,Task Delta,Category2,2,SkillB,bad range,1
+T004,Task Epsilon,Category3,2,SkillA,"[1,2]",5

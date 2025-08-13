@@ -1,0 +1,14 @@
+ClientID,ClientName,PriorityLevel,RequestedTaskIDs,GroupTag,AttributesJSON\
+C001,Acme Inc,6,T001,TierA,"\{""key"": ""value""\}  "
+C002,Bravo Ltd,3,T999,TierB,\{invalid json\}      # Broken JSON\
+C002,Charlie LLC,2,T001,TierC,"\{""valid"":true\}  # Duplicate ClientID\"
+C004,Delta LLC,4,T003|T004,TierD,"\{""note"":""ok""\}  # Malformed list of RequestedTaskIDs (should be comma)\"
+C005,Echo Corp,3,T500,TierE,"\{""note"":""missing task ref""\}  # Unknown RequestedTaskID (T500 not in tasks)\"
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+},,,,,

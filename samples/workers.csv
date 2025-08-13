@@ -1,0 +1,6 @@
+WorkerID,WorkerName,Skills,AvailableSlots,MaxLoadPerPhase,WorkerGroup,QualificationLevel\
+W001,Worker One,SkillA|SkillB,"[1,2,x]",2,Group1,Expert  # Malformed AvailableSlots (non-numeric 'x')\
+W002,Worker Two,SkillA,[1],3,Group1,Expert             # AvailableSlots.length < MaxLoadPerPhase (1 < 3)\
+W002,Worker Three,SkillB,"[2,3]",2,Group2,Novice         # Duplicate WorkerID\
+W004,Worker Four,SkillC,"[1,2,3]",2,Group2,Expert        # SkillC not required by any task (but intentional skill gap)\
+},,,,,,
