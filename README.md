@@ -55,7 +55,8 @@ This app lets users upload messy CSV or XLSX files for **clients**, **workers**,
 * ✅ **AI Error Correction** – Full error analysis and correction
 * ✅ **Deep Dataset Analysis** – Comprehensive data quality assessment
 * ✅ **AI Rule Recommendations** – Basic recommendations system
-* ⚠️ **Enhanced Rule Recommendations with Business Impact** – *Not fully implemented* due to exhausted API credits and inability to generate new API keys because of a Google AI Studio error.
+* ⚠️ **Enhanced Rule Recommendations with Business Impact** – *Not fully implemented* due to exhausted API credits and inability to generate new API keys because of a Google AI Studio error. Can't deploy the app 
+      for the same reason.
 
   * See **`error.jpg`** in the root directory for details.
   * Will complete and deploy once a new API key is obtained.
