@@ -59,6 +59,7 @@ This app lets users upload messy CSV or XLSX files for **clients**, **workers**,
 
   * See **`error.jpg`** in the root directory for details.
   * Will complete and deploy once a new API key is obtained.
+  * Meanwhile, please run the app locally and try
 
 ---
 
