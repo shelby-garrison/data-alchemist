@@ -17,6 +17,7 @@
     "@mui/material": "^7.1.2",
     "@mui/x-data-grid": "^8.5.3",
     "@types/papaparse": "^5.3.16",
+    "dotenv": "^17.2.1",
     "next": "15.3.4",
     "openai": "^5.8.1",
     "papaparse": "^5.5.3",
