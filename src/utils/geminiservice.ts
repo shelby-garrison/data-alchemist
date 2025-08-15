@@ -12,7 +12,7 @@ import {
   DataModification
 } from '../types';
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
+const genAI = new GoogleGenerativeAI('AIzaSyB48OQpsGCQt2J0j9OWSQY5jstyP5qErE4');
 
 // Service status tracking
 let serviceStatus = {
